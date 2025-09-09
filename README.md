@@ -6,14 +6,14 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
 ## Tools Required
 
 ### Cadence EDA Suite
-- **Virtuoso Schematic Editor** (for circuit design)  
-- **Spectre Simulator** (for circuit simulation)  
+- *Virtuoso Schematic Editor* (for circuit design)  
+- *Spectre Simulator* (for circuit simulation)  
 
 ### Process Design Kit (PDK)
 - CMOS technology library (e.g., 180nm, 45nm node)  
 
 ### Computer System
-- Minimum **4GB RAM** and a **multi-core processor**
+- Minimum *4GB RAM* and a *multi-core processor*
 
 ## Procedure:
 ### 1. Launch Cadence Virtuoso Environment:
@@ -42,7 +42,7 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
 
 #### 2. Schematic of CMOS Inverter:
 
-   ![image](https://github.com/user-attachments/assets/cbba1a98-bb12-417f-b0ab-edd8b4c78e7e)
+  <img width="1606" height="826" alt="Screenshot 2025-09-03 083106" src="https://github.com/user-attachments/assets/63ee6fbe-f12b-4890-a651-58d54254a9af" />
 
 #### 3. Transient Response Setup:
 
@@ -56,22 +56,9 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
 ## Output
 #### 1.Transient Analysis Output
 
-  ![image](https://github.com/user-attachments/assets/b86fd87f-7a66-47f5-bc26-2b5f4cb5679d)
+<img width="1692" height="848" alt="Screenshot 2025-09-03 083510" src="https://github.com/user-attachments/assets/71cc0c43-5eb5-437c-9d77-ca2a3ff90dcf" />
 
-
-## Results:
 
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 2.	The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
 3.	The Voltage Transfer Characteristic (VTC) curve was plotted, showing the relationship between input and output voltages.
-
-
-
-
-
-
-
-
-
-
-
